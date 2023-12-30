@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>409</width>
+    <height>723</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>411</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url(:/newPrefix/logo.png)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>201</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cooper Black</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Alpha Lens</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>500</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cascadia Code</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QPushButton{
+	background-color: #4A494A;
+	border-radius: 12px;
+	
+	color: white;
+	border: 2px solid #f44336
+}
+
+.QPushButton:hover{
+	background-color: white;
+	color:black
+}</string>
+    </property>
+    <property name="text">
+     <string>Get an Image</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>90</y>
+      <width>451</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url(:/newPrefix/logo.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="heroImage.qrc"/>
+ </resources>
+ <connections/>
+</ui>
